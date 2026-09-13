@@ -29,3 +29,23 @@ print(result1)
 
 result2 = greeting("Justin")
 print("result:", result2)
+
+
+print("=====Keyword vs Default arguments=====")
+
+# DEFINE
+
+
+def give_greet(name, age=22):
+    print("give_greet is being executed")
+    return f"Hello, {name}, you are {age} years old"
+
+
+# CALL
+give_greet("Kate", 39)  # return ko'rinmaydi, chunki return print qilmaydi
+
+result3 = give_greet(name="Kate", age=39)
+print("Result3:", result3)
+
+result4 = give_greet("Kate")
+print("Result4:", result4)
