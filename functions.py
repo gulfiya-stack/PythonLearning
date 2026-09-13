@@ -49,3 +49,22 @@ print("Result3:", result3)
 
 result4 = give_greet("Kate")
 print("Result4:", result4)
+
+
+print("=====SCOPE=====")
+b = 100  # 3
+
+# DEFINE
+
+
+def calculate(a, b):  # 2
+    c = a * b  # 1
+    print(f"the c value: {c}")
+
+
+# CALL
+# (1) functionning ichkaridan izlaydi
+# (2) functionning () Parametrlardan izlaydi
+# (3) oxirida tashqaridan izlaydi
+calculate(5, 50)  # bu bu yerdagi argumentni oladi (50*5)
+# calculate(5)  # majburiy parameter bilan xato; # b ni olib tashlasak 100
