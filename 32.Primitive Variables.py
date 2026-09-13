@@ -15,7 +15,7 @@ In Python there are built-in tools:
 (2) FUNCTIONS > print(), len(), input(), type()
 (3) Constants > True, False, None
 
-Constants larni ko'rish uchun - print(__builtins__)/print(dir(__builtins__))
 '''
+# Constants larni ko'rish uchun - print(__builtins__)/print(dir(__builtins__))
 print(__builtins__)
 print(dir(__builtins__))
