@@ -46,3 +46,33 @@ result3 = course.replace("Fullstack", "MasterClass")
 print(f"Result 4: {result3}")
 
 print(result3)  # o'zgarmaydi chunki courseni o'zgartirmadik
+
+print("===========boolean============")
+# functions > type() input() bool() int() str()
+
+# y = input("Give your value for y: ")
+# print("y:", y)
+
+# resy = y.isnumeric()
+# print(f"The input value is numeric? {resy}")
+
+
+# TRUTHY VS FALSY value
+# TRUTHY - True, 5, -6, "string"
+# FALSY - False, 0, "", None
+
+# empty string is FALSY ---> check with bool()
+
+test_falsy = "" or False or None or 0
+print("The falsy: ", bool(test_falsy))
+
+# agar ichida bittasi Truthy bo'lsa -> True qaytaradi
+
+test_falsy2 = "" or False or None or 100 or 0
+print("The falsy: ", bool(test_falsy2))
+
+test_truthy = "string" or -9
+print("The truthy: ", bool(test_truthy))
+
+test_truthy2 = "string" or -9 or None
+print("The truthy: ", bool(test_truthy2))
