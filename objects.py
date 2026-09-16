@@ -4,9 +4,12 @@
 (3) DICTIONARY
 (4) Error handling system
 '''
+
 import array  # package or module
 import math   # package
 from math import ceil, asin   # Math package dan Ceil method ni chaqirish
+
+
 print("=======What is an object?=======")
 # An object has state and methods
 # Everything is an object in Python
