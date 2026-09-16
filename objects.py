@@ -44,10 +44,14 @@ try:
     # result = car_dict["origin"]
     print("result: ", result0)
     # print("result: ", result)
-except KeyError as err:
-    print("No origin state property found: ", err)
-except AttributeError as err:
-    print("No speed state property found: ", err)
+# except (KeyError, AttributeError) as err:
+    # print("Error", err)
+except Exception as err:
+    print("Error", err)
+# except KeyError as err:
+#     print("No origin state property found: ", err)
+# except AttributeError as err:
+#     print("No speed state property found: ", err)
 else:  # try xatosiz bo'lsa
     print("Executed successfully without errors")
 finally:
