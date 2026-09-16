@@ -68,3 +68,6 @@ def calculate(a, b):  # 2
 # (3) oxirida tashqaridan izlaydi
 calculate(5, 50)  # bu bu yerdagi argumentni oladi (50*5)
 # calculate(5)  # majburiy parameter bilan xato; # b ni olib tashlasak 100
+
+# See error types
+print(dir(__builtins__))
